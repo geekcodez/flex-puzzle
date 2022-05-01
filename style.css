@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.flex-item {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.flex-item li {
+    width: 30%;
+    height: fit-content;
+    text-align: center;
+}
+
+.flex-item li .hide {
+    visibility: hidden;
+}
